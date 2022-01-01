@@ -25,7 +25,7 @@ const SignInFormContainer = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="container py-5 h-100">
+    <div className="container py-5 h-100 background-container">
       <div className="row d-flex justify-content-center align-items-center h-100">
         <div className="col col-xl-10">
           <div

@@ -4,6 +4,14 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.background-container{
+  overflow-y: scroll;
+}
+
+.background-container::-webkit-scrollbar{
+  width: 0px;
+}
+
 a {
   text-decoration: none;
   color: yellow;
