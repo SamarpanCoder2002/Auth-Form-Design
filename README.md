@@ -1,6 +1,11 @@
-### <p align="center"> Auth Form Design </p>
+### <p align="center">🙋 Auth Form Design </p>
 
 ![Auth form Landing Page](https://user-images.githubusercontent.com/66327336/147853323-a058bb6f-e4e1-44fb-943d-5bb628389d53.png)
+
+### <p align="center">🥳Features</p>
+#### <p align="center">1. Check Your Password Strength </p>
+#### <p align="center">2. Can Use Suggested Password </p>
+#### <p align="center">3. Enjoy Responsive Design </p>
 
 # Getting Started with Create React App
 
