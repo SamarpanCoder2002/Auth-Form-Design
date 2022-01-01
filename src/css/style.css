@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Gabriela&family=Karla:wght@300&family=Montserrat&family=Mulish&family=Nunito&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@300&family=Raleway&family=Roboto&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.signup-bg {
+  height: 100vh;
+  background: url(https://images.pexels.com/photos/2058128/pexels-photo-2058128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.form-container {
+  height: 120vh;
+}
+
+.card-manual-style {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: none;
+  box-shadow: 0 0 1rem 0.1rem rgb(221 190 159 / 0.6);
+}
+
+/* .card-manual-style .left-side-img {
+   filter: blur(10px); 
+} */
+
+.card-manual-style .card-name {
+  font-family: "Akaya Kanadaka", cursive;
+  letter-spacing: 1px;
+}
+
+.card-manual-style input {
+  background: transparent;
+  color: #fff;
+  caret-color: #fff;
+}
+
+.card-manual-style input:focus {
+  color: #fff;
+  background: transparent;
+  border-color: #fff;
+  box-shadow: none;
+  box-shadow: 0 0 1rem 0rem rgb(213 216 222 / 0.6);
+}
+
+.card-manual-style input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-manual-style input[name="password"],
+.card-manual-style input[name="confirmPassword"] {
+  border-right: none;
+}
+
+.card-manual-style .input-group-addon {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-manual-style .submit-btn {
+  background-color: #4dd637;
+  color: "#fff";
+  font-family: "Mulish", cursive;
+  transition: all 0.3s;
+}
+
+.card-manual-style .submit-btn:hover,
+.card-manual-style .submit-btn:focus {
+  box-shadow: 0 0 0 0.25rem rgba(77, 214, 55, 0.4);
+}
+
+/* For progress bar color */
+.progress-bar-container {
+  background: #fff;
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 1rem 0.1rem rgb(221 190 159 / 0.6);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.barContainer {
+  flex: 1;
+  height: 15px;
+  border-radius: 12px;
+  overflow: hidden; /* Crucial part */
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 1rem 0.1rem rgb(221 190 159 / 0.6);
+}
+
+.textValue {
+  margin-left: 8px;
+  text-align: right;
+  font-size: 16px;
+}
+
+.fillerBackground {
+  height: inherit;
+  transition: 0.5s ease;
+  background: linear-gradient(to right, #bf3312, #ddd101, #4dd637);
+}
+
+.filler {
+  transition: 0.5s ease;
+  height: inherit;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.tag {
+  background-color: #00d84a;
+  border-radius: 40px;
+  cursor: pointer;
+}
