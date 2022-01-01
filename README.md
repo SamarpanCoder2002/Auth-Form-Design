@@ -1,3 +1,7 @@
+### <p align="center"> Auth Form Design </p>
+
+![Auth form Landing Page](https://user-images.githubusercontent.com/66327336/147853323-a058bb6f-e4e1-44fb-943d-5bb628389d53.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
